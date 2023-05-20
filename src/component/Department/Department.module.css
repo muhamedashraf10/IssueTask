@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.depart {
+  background-color: rgba(217, 217, 217, 1);
+  padding: 8px 15px;
+  border-radius: 9px;
+  margin-inline: 10px;
+  cursor: pointer;
+}
+.depart:hover {
+  background-color: rgb(178, 178, 178);
+}
+.select {
+  background-color: #198754;
+  padding: 8px 15px;
+  border-radius: 9px;
+  cursor: pointer;
+  margin-inline: 10px;
+  color: #fff;
+}

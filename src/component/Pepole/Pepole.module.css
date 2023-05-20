@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  justify-content: center;
+}
+.imageContainer {
+  padding: 10px 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-inline: 6px;
+}
+.image {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+}
+.title {
+  color: blue;
+}
