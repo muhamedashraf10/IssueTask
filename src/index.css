@@ -43,3 +43,26 @@ h2 {
 input[type="file"] {
   display: none;
 }
+button {
+  cursor: pointer;
+}
+input[type="date"] {
+  background-color: #1a73e8;
+  padding: 10px;
+  font-family: monospace;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 9px;
+}
+::-webkit-calender-picker-indicator {
+  background-color: #fff;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-clear-button {
+  display: block;
+}

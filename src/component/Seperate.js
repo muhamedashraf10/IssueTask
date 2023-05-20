@@ -4,10 +4,11 @@ const Seperate = () => {
   return (
     <div
       style={{
-        backgroundColor: "GrayText",
+        backgroundColor: "#d9d9d9",
         height: "1px",
         width: "100%",
-        marginTop: "40px",
+        marginTop: "100px",
+        marginBottom: "100px",
       }}
     />
   );

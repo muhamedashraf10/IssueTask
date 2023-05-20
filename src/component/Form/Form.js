@@ -16,6 +16,7 @@ const Form = () => {
   return (
     <div className={styles.l__form}>
       <div className={styles.form}>
+        <h1>Issue</h1>
         <div className={styles.form__div}>
           <input
             type="text"
@@ -80,33 +81,33 @@ const Form = () => {
             Note
           </label>
         </div>
-        <div className={styles.form__div}>
-          <input
-            type="date"
-            className={styles.form__input}
-            value={deadline}
-            placeholder=" "
-            onChange={(e) => {
-              setState({
-                deadline: e.target.value,
-              });
-            }}
-          />
-          <label htmlFor="" className={styles.form__label}>
-            Deadline
-          </label>
-        </div>
         <div className={styles.bttn}>
           <label className={styles.upload}>
-            <input type="file" />
+            <input
+              type="file"
+              value={file}
+              onChange={(e) => {
+                setState({
+                  file: e.target.value,
+                });
+              }}
+            />
             <img
               src="./images/uplode.png"
               alt="upload file"
               width={50}
               height={50}
             />
-            <p>upload file</p>
           </label>
+          <input
+            type="date"
+            value={deadline}
+            onChange={(e) => {
+              setState({
+                deadline: e.target.value,
+              });
+            }}
+          />
           <button
             className={styles.form__button}
             type="reset"

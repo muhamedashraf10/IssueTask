@@ -21,3 +21,13 @@
 .title {
   color: blue;
 }
+.selectPepole {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-inline: 6px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+}
+.imageContainer:hover {
+  background-color: #d9d9d9;
+}

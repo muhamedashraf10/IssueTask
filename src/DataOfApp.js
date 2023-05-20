@@ -99,3 +99,58 @@ export const typeIssue = [
     type: "Typical",
   },
 ];
+
+export const companyImg = [
+  {
+    id: 1,
+    source: "./images/c1.png",
+  },
+  {
+    id: 2,
+    source: "./images/c2.png",
+  },
+  {
+    id: 3,
+    source: "./images/c3.png",
+  },
+  {
+    id: 4,
+    source: "./images/c4.png",
+  },
+  {
+    id: 5,
+    source: "./images/c5.png",
+  },
+  {
+    id: 6,
+    source: "./images/c6.png",
+  },
+  {
+    id: 7,
+    source: "./images/c7.png",
+  },
+  {
+    id: 8,
+    source: "./images/c8.png",
+  },
+  {
+    id: 9,
+    source: "./images/c9.png",
+  },
+  {
+    id: 10,
+    source: "./images/c10.png",
+  },
+  {
+    id: 11,
+    source: "./images/c11.png",
+  },
+  {
+    id: 12,
+    source: "./images/c12.png",
+  },
+  {
+    id: 13,
+    source: "./images/c13.png",
+  },
+];
